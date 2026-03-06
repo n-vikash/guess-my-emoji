@@ -105,9 +105,10 @@ Gameplay
 
 IF YOUR CHOOSE CORRECT EMOJI
 
-<img width="1919" height="909" alt="CRCT_EMOJI" src="https://github.com/user-attachments/assets/eab7ef8e-4fe5-4ce8-ab10-0cb029628c61" />
+<img width="1919" height="910" alt="CRCT_EMOJI" src="https://github.com/user-attachments/assets/3730b82d-ed4d-4587-a933-dffd60f2c9f8" />
 
 IF YOUR OUT OF CHANCES
 
-<img width="1919" height="902" alt="OUT_OF_CHANCES" src="https://github.com/user-attachments/assets/4f3b3922-1f0c-454b-8251-4f478612ec42" />
+<img width="1919" height="913" alt="WRONG_EMOJI" src="https://github.com/user-attachments/assets/8479199d-bdcc-4f5d-a281-6f25f02dcf8a" />
+
 
