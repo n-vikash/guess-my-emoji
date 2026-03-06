@@ -59,8 +59,16 @@ function random_arr(x, emojis, num) {
 
   return arr;
 }
-
+//random creation
+document.querySelector(".again").textContent = "SELECT A LEVEL";
+document.querySelector(".show-level").textContent = "CHOOSE A LEVEL";
+let random_show = random_arr(
+  0,
+  emojis,
+  Math.trunc(Math.random() * emojis.length),
+);
 //hiding level menu bar
+
 const menu = document.querySelector(".level-menu");
 menu.classList.add("hidden");
 
@@ -104,16 +112,19 @@ document.querySelector(".again").addEventListener("click", () => {
 
 //easy level
 document.querySelector(".easy").addEventListener("click", function () {
+  document.querySelector(".again").textContent = "Again ?";
   clickarr(3, 5);
 });
 
 //normal level
 document.querySelector(".normal").addEventListener("click", function () {
+  document.querySelector(".again").textContent = "Again ?";
   clickarr(2, 7);
 });
 
 //hard level
 document.querySelector(".hard").addEventListener("click", function () {
+  document.querySelector(".again").textContent = "Again ?";
   clickarr(2, 10);
 });
 
