@@ -104,7 +104,7 @@ document.querySelector(".check").addEventListener("click", function () {
        document.querySelector(".title").textContent = "GAME OVER ❌";
     }
   } else {
-    msg.textContent = "huh..only those 5 emojis are allowed,choose in them";
+    msg.textContent = "huh..only those emojis are allowed,choose in between them";
   }
 });
 
