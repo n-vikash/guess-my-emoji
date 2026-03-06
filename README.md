@@ -85,8 +85,7 @@ Below are examples of the game interface.
 
 Game Interface
 
-<img width="1919" height="907" alt="game_interface" src="https://github.com/user-attachments/assets/142309aa-2328-4a7a-bf23-6bc05b650dbd" />
-
+<img width="1919" height="903" alt="game_interface" src="https://github.com/user-attachments/assets/1bd5b459-fe44-4bd7-b08b-ea26d5725621" />
 
 Difficulty Levels
 
