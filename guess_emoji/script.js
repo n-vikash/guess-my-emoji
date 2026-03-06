@@ -89,7 +89,9 @@ document.querySelector(".check").addEventListener("click", function () {
       if (random_show[moj] == guess) {
         msg.textContent = "correct emoji";
         score.textContent = cnt == 2 ? "fantastic" : "good";
+        document.querySelector(".number").textContent = random_show[moj];
         document.body.style.backgroundColor = "green";
+        document.querySelector(".title").textContent = "CONGRATULATIONS 🎊";
       } else {
         msg.textContent = "lastchance";
         cnt--;
@@ -97,7 +99,9 @@ document.querySelector(".check").addEventListener("click", function () {
       }
     } else {
       msg.textContent = "your out of chnaces";
+      document.querySelector(".number").textContent = random_show[moj];
       document.body.style.backgroundColor = "red";
+       document.querySelector(".title").textContent = "GAME OVER ❌";
     }
   } else {
     msg.textContent = "huh..only those 5 emojis are allowed,choose in them";
